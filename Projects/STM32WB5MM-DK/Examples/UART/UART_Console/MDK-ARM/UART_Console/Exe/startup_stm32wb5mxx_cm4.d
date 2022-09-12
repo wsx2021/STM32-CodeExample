@@ -1,0 +1,1 @@
+uart_console\exe\startup_stm32wb5mxx_cm4.o: startup_stm32wb5mxx_cm4.s

@@ -1,0 +1,8 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:744:22:LL_AHB3_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:958:22:LL_APB1_GRP2_EnableClock	24	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:1053:22:LL_APB1_GRP2_DisableClock	16	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:1274:22:LL_APB2_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:1328:22:LL_APB2_GRP1_DisableClock	16	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/stm32wbxx_hal_msp.c:65:6:HAL_MspInit	8	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/stm32wbxx_hal_msp.c:91:6:HAL_UART_MspInit	32	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/stm32wbxx_hal_msp.c:199:6:HAL_UART_MspDeInit	16	static

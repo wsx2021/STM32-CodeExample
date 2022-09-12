@@ -1,0 +1,11 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h:3005:26:LL_USART_IsActiveFlag_TXE_TXFNF	16	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usart.h:4262:22:LL_USART_TransmitData8	16	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_lpuart.h:1656:26:LL_LPUART_IsActiveFlag_TXE_TXFNF	16	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_lpuart.h:2549:22:LL_LPUART_TransmitData8	16	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:56:13:HW_UART_Receive_IT	32	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:104:13:HW_UART_Transmit_IT	32	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:152:13:HW_UART_Transmit	32	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:201:13:HW_UART_Transmit_LL	24	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:228:13:HW_UART_Transmit_DMA	32	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:328:6:HAL_UART_RxCpltCallback	16	static
+C:/Users/kolik/STM32Cube/Repository/STM32Cube_FW_WB_V1.13.3/Projects/P-NUCLEO-WB55.Nucleo/Applications/Phy_802_15_4 - SquareWaveVoltammetry/Phy_802_15_4_Cli/Core/Src/hw_uart.c:357:6:HAL_UART_TxCpltCallback	16	static

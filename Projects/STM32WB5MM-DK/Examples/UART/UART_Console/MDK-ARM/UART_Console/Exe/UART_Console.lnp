@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"uart_console\exe\startup_stm32wb5mxx_cm4.o"
+"uart_console\exe\main.o"
+"uart_console\exe\stm32wbxx_it.o"
+"uart_console\exe\stm32wbxx_hal_msp.o"
+"uart_console\exe\stm32wbxx_hal_tim.o"
+"uart_console\exe\stm32wbxx_hal_tim_ex.o"
+"uart_console\exe\stm32wbxx_hal_uart.o"
+"uart_console\exe\stm32wbxx_hal_uart_ex.o"
+"uart_console\exe\stm32wbxx_hal_rcc.o"
+"uart_console\exe\stm32wbxx_hal_rcc_ex.o"
+"uart_console\exe\stm32wbxx_hal_flash.o"
+"uart_console\exe\stm32wbxx_hal_flash_ex.o"
+"uart_console\exe\stm32wbxx_hal_gpio.o"
+"uart_console\exe\stm32wbxx_hal_hsem.o"
+"uart_console\exe\stm32wbxx_hal_dma.o"
+"uart_console\exe\stm32wbxx_hal_dma_ex.o"
+"uart_console\exe\stm32wbxx_hal_pwr.o"
+"uart_console\exe\stm32wbxx_hal_pwr_ex.o"
+"uart_console\exe\stm32wbxx_hal_cortex.o"
+"uart_console\exe\stm32wbxx_hal.o"
+"uart_console\exe\stm32wbxx_hal_exti.o"
+"uart_console\exe\system_stm32wbxx.o"
+"uart_console\exe\stm32wb5mm_dk.o"
+--library_type=microlib --strict --scatter "stm32wb5mxx_flash_cm4.sct"
+--diag_suppress L6314W --diag_suppress 1296 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_Console.map" -o UART_Console\Exe\UART_Console.axf

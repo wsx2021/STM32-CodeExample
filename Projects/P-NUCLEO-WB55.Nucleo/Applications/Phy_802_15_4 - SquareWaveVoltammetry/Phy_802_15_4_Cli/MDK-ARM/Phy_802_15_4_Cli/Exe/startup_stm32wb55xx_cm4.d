@@ -1,0 +1,1 @@
+phy_802_15_4_cli\exe\startup_stm32wb55xx_cm4.o: startup_stm32wb55xx_cm4.s

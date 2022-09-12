@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"uart_receptiontoidle_circulardma\startup_stm32wb55xx_cm4.o"
+"uart_receptiontoidle_circulardma\main.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_it.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_msp.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_nucleo.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_tim.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_tim_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_uart.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_uart_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_rcc.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_rcc_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_flash.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_flash_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_gpio.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_hsem.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_dma.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_dma_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_pwr.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_pwr_ex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_cortex.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal.o"
+"uart_receptiontoidle_circulardma\stm32wbxx_hal_exti.o"
+"uart_receptiontoidle_circulardma\system_stm32wbxx.o"
+--library_type=microlib --strict --scatter "stm32wb55xx_flash_cm4.sct"
+--diag_suppress L6314W --diag_suppress 1296 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_ReceptionToIdle_CircularDMA.map" -o UART_ReceptionToIdle_CircularDMA\UART_ReceptionToIdle_CircularDMA.axf

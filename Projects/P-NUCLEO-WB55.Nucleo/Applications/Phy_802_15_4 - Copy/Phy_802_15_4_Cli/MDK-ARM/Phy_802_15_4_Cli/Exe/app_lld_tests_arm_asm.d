@@ -1,0 +1,1 @@
+phy_802_15_4_cli\exe\app_lld_tests_arm_asm.o: app_lld_tests_arm_asm.s

@@ -1,0 +1,15 @@
+--cpu=Cortex-M4.fp.sp
+"spi_twoboards_fullduplex_it_master_init\exe\startup_stm32wb55xx_cm4.o"
+"spi_twoboards_fullduplex_it_master_init\exe\main.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_it.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_utils.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_exti.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_gpio.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_spi.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_dma.o"
+"spi_twoboards_fullduplex_it_master_init\exe\stm32wbxx_ll_pwr.o"
+"spi_twoboards_fullduplex_it_master_init\exe\system_stm32wbxx.o"
+--library_type=microlib --strict --scatter ".\stm32wb55xx_flash_cm4.sct"
+--diag_suppress L6314W --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPI_TwoBoards_FullDuplex_IT_Master_Init.map" -o SPI_TwoBoards_FullDuplex_IT_Master_Init\Exe\SPI_TwoBoards_FullDuplex_IT_Master_Init.axf
